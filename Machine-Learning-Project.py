@@ -13,7 +13,7 @@ from alpha_vantage.timeseries import TimeSeries
 plt.style.use('fivethirtyeight')
 
 # Insert Alpha Vantage API key
-api_key = '1XETASBNLRUW10RW'
+api_key = '---------------'
 ts = TimeSeries(key=api_key, output_format='pandas')
 
 # Fetch historical data from Alpha Vantage
